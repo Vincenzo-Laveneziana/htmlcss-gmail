@@ -1,0 +1,129 @@
+/* *{
+  box-sizing: border-box;
+} */
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color:  #262626;
+  /* background-image: url('../img/sfondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  width: 1000px;
+  margin: 40px auto;
+  color: white;
+}
+
+#colore_sfondo{
+
+}
+
+/* Style degli elementi contenuti nell'header */
+#unisci_immagine{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+#unisci_casella{
+  display: inline-block;
+}
+
+
+input[type=search]{
+  width: 650px;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 1px;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+input[type=submit]{
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 1px;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+#titolo_benvenuto{
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+
+/* style degli elementi contenuti dentro il main */
+a{
+  color: white;
+}
+
+#larghezza_main{
+  width: 960px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+#testo_notifiche{
+  font-size: 25px;
+  margin: 30px 0 30px 8px;
+}
+
+.numeri_notifiche{
+  display: inline-block;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.aperte{
+  padding: 7px;
+  background-color: #1f1f1f;
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  display: inline-block;
+  width: 925px;
+  margin-left: 19px;
+}
+
+.prova_pallino{
+  background: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right:  7px;
+  display: inline-block;
+}
+
+.email_riga{
+  padding: 7px;
+  background-color: #6e6e6e;
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  display: inline-block;
+  width: 925px;
+}
+
+.intro_text::before{
+  content: ' - '
+}
+.intro_text::after{
+  content: '...';
+}
+
+
+/* style dedicato al footer */
+footer{
+  margin-top: 40px;
+
+}
+
+.credenziali{
+  text-align: center;
+}
